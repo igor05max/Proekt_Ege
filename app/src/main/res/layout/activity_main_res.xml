@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivityRes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:layout_margin="2dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="логин"
+            android:textSize="20dp"
+            android:id="@+id/login"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="пароль"
+            android:textSize="20dp"
+            android:id="@+id/password"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button"
+            android:textSize="20dp"
+            android:text="вход"
+            android:background="@drawable/button"
+            android:textStyle="italic|bold"
+            />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_marginTop="-2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0"
+                android:background="@drawable/input"
+                android:textColor="@color/button"
+                android:text="регистрация"
+                android:textSize="12dp"
+                android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
